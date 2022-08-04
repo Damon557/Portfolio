@@ -1,0 +1,153 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background: black;
+}
+
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+
+}
+
+nav{
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: rgb(240, 10, 240);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: chartreuse;
+}
+
+.hero-image{
+    background-image:url("../Images/Image1.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    position: relative;
+}
+.hero-text{
+    color:white ;
+    text-align:center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: rgb(236, 3, 236);
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+,side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    bottom:0px;
+    width: 100%;
+    background-color: chartreuse;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: darkorchid;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0 12px =12px white;
+}
+
+main{
+    overflow: auto;
+}
+
+.Pc{
+    width: 400px;
+    height: auto;
+}
